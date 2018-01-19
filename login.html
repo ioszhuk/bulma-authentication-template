@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Authentication Template - by Pete Houston</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <style>
+        .hero.is-colorful {
+            background: linear-gradient(to right, #396afc, #2948ff);
+        }
+
+        .pad-150 {
+            padding: 150px;
+        }
+
+        .form-wrapper {
+            margin-left: 100px;
+        }
+
+        form .form-title {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+
+        form .input,
+        form .button {
+            height: 45px
+        }
+
+        form .input {
+            background-color: #e6e6e6;
+            color: #666666;
+            font-weight: bold;
+            border: #e6e6e6 1px solid;
+        }
+
+        form .input:hover {
+            border: #e6e6e6 1px solid;
+        }
+
+        form .button {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            padding-top: 8px;
+        }
+        .column.vcenter {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero is-colorful is-fullheight">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-8 is-offset-2">
+                <div class="box pad-150">
+                    <div class="columns">
+                        <div class="column is-one-third vcenter">
+                            <figure class="image">
+                                <img src="img/logo.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="column">
+                            <div class="form-wrapper">
+                                <form style="">
+                                    <span class="form-title">Member Login</span>
+                                    <div class="field">
+                                        <div class="control">
+                                            <input class="input is-rounded" type="email" placeholder="Your Email" autofocus="">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <div class="control">
+                                            <input class="input is-rounded" type="password" placeholder="Your Password">
+                                        </div>
+                                    </div>
+                                    <a class="button is-block is-danger is-rounded">Login</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
